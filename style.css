@@ -1,0 +1,81 @@
+
+.open-sans-primary {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* site color css */
+.title-color{
+    color: #181818;
+}
+
+.primary-color{
+    color:#FD6E0A;
+}
+
+.primary-btn{
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* global css start */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.align-item-center{
+    align-items: center;
+}
+/* global css end */
+
+/* Indivizual Css Start */
+.logo{}
+.logo a{
+    text-decoration: none;
+}
+.logo a h3{
+    font-size: 40px;
+}
+.logo a h3 span{}
+
+
+.nav{
+    
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #474747;
+}
+.nav ul li button{}
+/* Indivizual Css End */
