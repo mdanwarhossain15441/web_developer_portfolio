@@ -26,6 +26,16 @@
     cursor: pointer;
     border-radius: 5px;
 }
+.primary-secondary {
+    color: #FD6E0A;
+    padding: 10px 25px;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}
 /* global css start */
 *{
     padding: 0;
@@ -50,19 +60,14 @@
 /* global css end */
 
 /* Indivizual Css Start */
-.logo{}
+
 .logo a{
     text-decoration: none;
 }
 .logo a h3{
     font-size: 40px;
 }
-.logo a h3 span{}
 
-
-.nav{
-    
-}
 .nav ul{
     display: flex;
     align-items: center;
@@ -77,5 +82,32 @@
     font-size: 16px;
     color: #474747;
 }
-.nav ul li button{}
+/* banner section start */
+.banner-img img {
+    max-width: 600px;
+    margin-bottom: -5px;
+} 
+.banner .banner-content {
+    width: 565px;
+}
+.banner-content h3 {
+    font-size: 45px;
+    font-weight: 500;
+}
+.banner-content h4 {
+    font-size: 85px;
+    color: #181818;
+}
+.banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin: 25px 0px;
+}
+/* banner section end */
+/* header section end */
+/* about section start */
+
+
+/* about section end */
 /* Indivizual Css End */
