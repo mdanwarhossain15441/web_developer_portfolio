@@ -66,7 +66,7 @@
 
 /* header section start */
 header{
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
     background-position: center left, bottom right;
     background-repeat: no-repeat;
     background-size: contain, auto;
@@ -121,7 +121,7 @@ header{
 .about .about-padding {
     background: #FFF8F3;
     border-radius: 10px;
-    margin: 40px auto;
+    margin: 100px auto 40px auto;
     padding: 125px 144px;
     box-sizing: border-box;
 }
@@ -161,4 +161,177 @@ header{
 }
 
 /* about section end */
+/* What I do section start */
+.what-i-do {
+    padding: 30px 0;
+}
+.what-i-do .container{}
+.what-i-do .container h3 {
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+.what-i-do .container p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin: 20px 0;
+    text-align: center;
+}
+.what-i-do .what-i-do-card-container {
+    display: flex;
+    gap: 30px;
+}
+.what-i-do .what-i-do-card-container .card {
+    border: 1px solid #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.what-i-do .card img{}
+.what-i-do .card h4 {
+    margin: 5px 0;
+}
+.what-i-do .card p {
+    text-align: left;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 25px;
+}
+/* What I do section end */
+
+/* CV section start */
+.cv{
+    padding: 80px 0;
+}
+.cv .container{}
+.cv .container .resume {
+    display: flex;
+    gap: 60px;
+}
+.cv .container h2{
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.cv .education {
+    border: 1px solid #181818;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.cv .education h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #474747;
+}
+.cv .education .course{}
+.cv .education .course h4 {
+    font-size: 20px;
+    margin: 10px auto;
+    color: #474747;
+}
+.cv .education .course h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 8px;
+}
+.cv .education .course p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 15px;
+}
+.cv .experience {
+    border: 1px solid #181818;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.cv .experience h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #474747;
+}
+.cv .education .position {}
+.cv .position h4{
+    font-size: 20px;
+    margin: 10px auto;
+    color: #474747;
+}
+.cv .position h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 8px;
+}
+.cv .position p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 15px;
+}
+/* CV section end */
+/* contact section start */
+.contact {
+    padding: 80px 0px;
+}
+.contact .contact-container {
+    display: flex;
+    gap: 40px;
+}
+.contact .contact-container .contact-content {
+    width: 50%;
+}
+.contact-container .contact-content h3 {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contact-content p {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #474747;
+}
+.contact-content a{}
+.contact-content a img {
+    margin-right: 10px;
+}
+.contact-container .contact-form {
+    width: 50%;
+}
+.contact-container .contact-form h3 {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+input[type="text"],input[type="email"]{
+    display: block;
+    height: 30px;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+textarea{
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* contact section end */
 /* Indivizual Css End */
