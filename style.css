@@ -117,7 +117,6 @@ header{
 /* banner section end */
 /* header section end */
 /* about section start */
-.about{}
 .about .about-padding {
     background: #FFF8F3;
     border-radius: 10px;
@@ -147,7 +146,6 @@ header{
     display: flex;
     justify-content: space-around;
 }
-.about .about-content .about-card-container .card{}
 .about .about-content .about-card-container .card h4 {
     font-size: 18px;
     font-weight: 400;
@@ -165,7 +163,6 @@ header{
 .what-i-do {
     padding: 30px 0;
 }
-.what-i-do .container{}
 .what-i-do .container h3 {
     text-align: center;
     font-size: 35px;
@@ -189,7 +186,6 @@ header{
     padding: 10px 15px;
     border-radius: 5px;
 }
-.what-i-do .card img{}
 .what-i-do .card h4 {
     margin: 5px 0;
 }
@@ -205,7 +201,6 @@ header{
 .cv{
     padding: 80px 0;
 }
-.cv .container{}
 .cv .container .resume {
     display: flex;
     gap: 60px;
@@ -229,7 +224,6 @@ header{
     margin-bottom: 20px;
     color: #474747;
 }
-.cv .education .course{}
 .cv .education .course h4 {
     font-size: 20px;
     margin: 10px auto;
@@ -259,7 +253,6 @@ header{
     margin-bottom: 20px;
     color: #474747;
 }
-.cv .education .position {}
 .cv .position h4{
     font-size: 20px;
     margin: 10px auto;
@@ -302,7 +295,6 @@ header{
     line-height: 25px;
     color: #474747;
 }
-.contact-content a{}
 .contact-content a img {
     margin-right: 10px;
 }
